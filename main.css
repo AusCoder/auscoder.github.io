@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+header {
+  font-family: sans-serif;
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 400;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 30px;
+  margin: 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+.header-btn {
+  float: right;
+}
+.header-btn a {
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 10px 30px;
+  border: 1px solid #000000;
+  position: relative;
+  color: #000000;
+}
+
+.header-btn a:active {
+  top: 2px;
+  color: #000000;
+}
+
+nav a {
+  color: #000000;
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none !important;
+}
